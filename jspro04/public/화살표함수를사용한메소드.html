@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		//익명함수와 애로우함수에서 this키워드를 다루는 방식의 차이!(참고로만 알아두기)
+		
+		const test = {
+				a:function() {  //-> 익명함수로 선언
+					console.log(this)
+				},
+				
+				b:() => {  //->애로우함수로 선언
+					console.log(this)
+			}
+		}
+		//메소드호출
+		test.a()  //현재코드에서 test객체를 출력
+		test.b()  //window객체를 출력
+	</script>
+</head>
+<body>
+
+</body>
+</html>

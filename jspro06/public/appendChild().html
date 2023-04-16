@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>appendChild() : 문서객체이동하기</title>
+	<script>
+		//appendChild() 메소드는 문서 객체를 이동할 때도 사용한다.
+	
+		document.addEventListener('DOMContentLoaded',() => {
+			//문서 객체 읽어들이고 생성
+			const divA = document.querySelector('#first') //id속성이 first인 div태그선택
+			const divB = document.querySelector('#second') //id속성이 second인 div태그선택
+			const h1 = document.createElement('h1') //h1태그 생성
+			h1.textContent = '이동하는 h1태그'
+			
+			//서로 번갈아가면서 실행하는 함수를 구현한다.
+			const toFirst = () => {
+				divA.appendChild(h1) //h1을 divA에 추가
+				setTimeout(toSecond,1000) // -> 1초 뒤에 toSecond함수를 실행
+			}
+			const toSecond = () => {
+				divB.appendChild(h1) //h1을 divB에 추가
+				setTimeout(toFirst,10000) //// -> 10초 뒤에 toFirst함수를 실행
+			}
+			toFirst()
+		})
+		
+	</script>
+</head>
+<body>
+	<div id="first">  <!-- 0인덱스 -->
+		<h1>첫번째 div태그 내부</h1>
+	</div>
+	<hr>
+	<div id="second">  <!-- 1인덱스 -->
+		<h1>두번째 div태그 내부</h1>
+	</div>
+</body>
+</html>

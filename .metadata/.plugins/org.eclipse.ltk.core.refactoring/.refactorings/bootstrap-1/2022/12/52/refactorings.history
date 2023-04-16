@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bootstrap/public/page.html&apos; to &apos;김봄.html&apos;" description="Rename resource &apos;page.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="public/page.html" name="김봄.html" stamp="1671698417644" updateReferences="true"/>
+</session>

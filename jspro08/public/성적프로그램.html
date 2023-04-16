@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Class</title>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const addButton = document.querySelector('#add-button')
+			const score = document.querySelector('#score')
+			const avg = document.querySelector('#avg')
+			
+			addButton.addEventListener('click', addTodo)
+			input.addEventListener('keyup', (event)=> {
+				
+			}
+			
+			toString() 
+			
+		})
+		function createStudent(name,kor,eng,mat,sci) {
+			return {
+				//속성선언
+				name:name,
+				kor:kor,
+				eng:eng,
+				mat:mat,
+				sci:sci,
+				
+				
+				//메소드선언
+				getSum() {
+					return Number(this.kor) + Number(this.eng) + Number(this.mat) + Number(this.sci)
+				},
+				getAverage () {
+					return this.getSum() / 4
+				},
+				toString(){
+					return`${this.name}\t${this.getSum()}점\t${this.getAverage()}점\n`
+					score.textContent = `<h3>총점:${getSum()}<h3>`
+					score.textContent = `<h3>평균:${getAverage()}<h3>`
+				}
+			  }
+			}
+			//객체선언
+			const students = []
+			/*
+			students.push(createStudent('구름', 87, 98, 88, 90))
+			students.push(createStudent('별이', 92, 98, 96, 88))
+			students.push(createStudent('겨울', 76, 96, 94, 86))
+			students.push(createStudent('바다', 98, 52, 98, 92))
+			*/
+			
+			//출력
+			let output = '이름\t총점\t평균\n'
+			for (const s of students) {
+				output += s.toString()
+			}
+			console.log(output)
+			
+	</script>
+</head>
+<body>
+	<h3>성적처리프로그램</h3>
+	<form>
+		이름 : <input type="text" size='2' id="name">
+		<p>
+		국어 : <input type="text" size='2' id="kor">
+		영어 : <input type="text" size='2' id="eng">
+		수학 : <input type="text" size='2' id="mat">
+		과학 : <input type="text" size='2' id="sci">
+		<p>
+		<button id="add-button">점수계산</button>
+		총점 : <input type="text" size='2' name="score" id="score">
+		평균 : <input type="text" size='2' name="avg" id="avg">
+	</form>
+</body>
+</html>

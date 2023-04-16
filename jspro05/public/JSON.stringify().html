@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		//자료생성
+		const data = [{
+			name:'혼자 공부하는 자바',
+			price:18000,
+			publisher:'한빛미디어'
+		},{
+			name:'웹 프로그래밍 입문',
+			price:26000,
+			publisher:'한빛미디어'
+		}]
+		
+		//자료를 JSON으로 변환 (송신)
+		console.log(JSON.stringify(data))
+		console.log(JSON.stringify(data, null, 2)) //2는 들여쓰기(들였기 두칸 추가-가독성 좋음)
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

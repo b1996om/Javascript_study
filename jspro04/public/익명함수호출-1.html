@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		//변수 선언
+		let anony
+		
+		//익명 함수는 두번 생성
+		anony = function() {
+			console.log('1번째 익명함수 입니다.')
+		}
+		anony = function() {
+			console.log('2번째 익명함수 입니다.')
+		}
+		
+		//익명함수 호출
+		anony()  //2번째 익명함수 입니다.
+	</script>
+</head>
+<body>
+
+</body>
+</html>

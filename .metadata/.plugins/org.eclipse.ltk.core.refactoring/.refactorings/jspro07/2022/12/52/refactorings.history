@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jspro07/public/드롭다운목록(multiple select).html&apos; to &apos;드롭다운목록(select multiple).html&apos;" description="Rename resource &apos;드롭다운목록(multiple select).html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="public/드롭다운목록(multiple select).html" name="드롭다운목록(select multiple).html" stamp="1671504612567" updateReferences="true"/>
+</session>

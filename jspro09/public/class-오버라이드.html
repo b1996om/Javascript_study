@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Class</title>
+	<script>
+		//LifeCycle 클래스에는 a(),b(),c()라는 이름의 메소드가 있고, call()이라는 이름의 메소드에서 이를 호출
+		//클래스 선언 : 메소드에서 순서대로 메소드 호출하기
+		class LifeCycle {
+			call() {
+				this.a()
+				this.b()
+				this.c()
+			}
+			
+			a() {console.log('a()메소드를 호출합니다')}
+			b() {console.log('b()메소드를 호출합니다')}
+			c() {console.log('c()메소드를 호출합니다')}
+		}
+		
+		//인스턴스 생성
+		new LifeCycle().call()
+	</script>	
+</head>
+<body>
+</body>
+</html>

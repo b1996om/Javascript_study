@@ -1,0 +1,60 @@
+
+12월 13, 2022 09:10:46.754 NEW SESSION
+12월 13, 2022 09:10:46.754 [824:8452:1213/091046.754:ERROR:device_event_log_impl.cc(215)] [09:10:46.754] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 13, 2022 09:29:02.911 [824:8452:1213/092902.911:ERROR:device_event_log_impl.cc(215)] [09:29:02.910] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+12월 13, 2022 09:29:02.914 [824:8452:1213/092902.913:ERROR:device_event_log_impl.cc(215)] [09:29:02.911] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+
+12월 14, 2022 09:28:27.821 NEW SESSION
+12월 14, 2022 09:28:27.821 [13984:12884:1214/092827.820:ERROR:device_event_log_impl.cc(215)] [09:28:27.820] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 14, 2022 12:28:58.200 [18316:14960:1214/122858.199:ERROR:device_event_log_impl.cc(215)] [12:28:58.199] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 14, 2022 16:38:11.761 NEW SESSION
+12월 14, 2022 16:38:11.761 [12992:7036:1214/163811.760:ERROR:device_event_log_impl.cc(215)] [16:38:11.760] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 15, 2022 09:14:52.617 NEW SESSION
+12월 15, 2022 09:14:52.617 [8316:11824:1215/091452.615:ERROR:device_event_log_impl.cc(215)] [09:14:52.615] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 15, 2022 10:29:44.287 [8316:11824:1215/102944.286:ERROR:interface_endpoint_client.cc(694)] Message 0 rejected by interface blink.mojom.WidgetHost
+12월 15, 2022 11:39:42.789 [2528:3444:1215/113942.789:ERROR:device_event_log_impl.cc(215)] [11:39:42.790] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 15, 2022 19:49:08.928 [16620:19380:1215/194908.928:ERROR:device_event_log_impl.cc(215)] [19:49:08.928] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 19, 2022 09:48:07.397 NEW SESSION
+12월 19, 2022 09:48:07.397 [10624:12548:1219/094807.396:ERROR:device_event_log_impl.cc(215)] [09:48:07.396] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 19, 2022 10:47:47.278 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+12월 19, 2022 17:10:28.74 [10624:12548:1219/171028.073:ERROR:interface_endpoint_client.cc(694)] Message 0 rejected by interface blink.mojom.WidgetHost
+12월 19, 2022 17:48:30.577 [10624:12548:1219/174830.576:ERROR:interface_endpoint_client.cc(694)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+12월 21, 2022 09:26:59.406 NEW SESSION
+12월 21, 2022 09:26:59.406 [12360:7636:1221/092659.405:ERROR:device_event_log_impl.cc(215)] [09:26:59.404] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 21, 2022 14:42:13.571 [12360:7636:1221/144213.571:ERROR:interface_endpoint_client.cc(694)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+12월 22, 2022 09:42:41.665 NEW SESSION
+12월 22, 2022 09:42:41.665 [10824:9056:1222/094241.664:ERROR:device_event_log_impl.cc(215)] [09:42:41.664] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 22, 2022 15:20:24.146 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+
+12월 26, 2022 09:11:49.434 NEW SESSION
+12월 26, 2022 09:11:49.434 [4316:12064:1226/091149.433:ERROR:device_event_log_impl.cc(215)] [09:11:49.433] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 26, 2022 09:12:53.149 [2240:8072:1226/091253.149:ERROR:device_event_log_impl.cc(215)] [09:12:53.148] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 26, 2022 09:13:28.759 [2284:7960:1226/091328.758:ERROR:device_event_log_impl.cc(215)] [09:13:28.759] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 27, 2022 09:04:42.755 NEW SESSION
+12월 27, 2022 09:04:42.755 [9032:11248:1227/090442.754:ERROR:device_event_log_impl.cc(215)] [09:04:42.754] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 27, 2022 14:08:14.999 [5416:9388:1227/140814.999:ERROR:device_event_log_impl.cc(215)] [14:08:14.999] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 27, 2022 14:23:02.538 [5856:9088:1227/142302.538:ERROR:device_event_log_impl.cc(215)] [14:23:02.538] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 27, 2022 14:38:59.155 [9388:7044:1227/143859.154:ERROR:device_event_log_impl.cc(215)] [14:38:59.154] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 27, 2022 14:40:22.208 [3932:5640:1227/144022.208:ERROR:device_event_log_impl.cc(215)] [14:40:22.208] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 27, 2022 15:03:31.366 [9116:3460:1227/150331.366:ERROR:device_event_log_impl.cc(215)] [15:03:31.366] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 27, 2022 15:04:03.591 NEW SESSION
+12월 27, 2022 15:04:03.591 [10380:11980:1227/150403.590:ERROR:device_event_log_impl.cc(215)] [15:04:03.590] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 27, 2022 15:06:58.381 NEW SESSION
+12월 27, 2022 15:06:58.381 [7708:7724:1227/150658.380:ERROR:device_event_log_impl.cc(215)] [15:06:58.381] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 27, 2022 15:09:26.591 [10444:7164:1227/150926.590:ERROR:gpu_process_host.cc(990)] GPU process exited unexpectedly: exit_code=1
+12월 27, 2022 15:10:32.528 [11292:10860:1227/151032.528:ERROR:device_event_log_impl.cc(215)] [15:10:32.528] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 27, 2022 15:11:08.62 [1336:8784:1227/151108.062:ERROR:device_event_log_impl.cc(215)] [15:11:08.062] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 27, 2022 16:59:32.848 [1336:8784:1227/165932.847:ERROR:interface_endpoint_client.cc(694)] Message 5 rejected by interface blink.mojom.WidgetHost
+12월 27, 2022 17:09:22.487 [3052:6372:1227/170922.487:ERROR:device_event_log_impl.cc(215)] [17:09:22.486] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 27, 2022 17:11:21.802 [13100:6620:1227/171121.802:ERROR:device_event_log_impl.cc(215)] [17:11:21.802] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 27, 2022 20:47:00.541 [13100:6620:1227/204700.540:ERROR:device_event_log_impl.cc(215)] [20:47:00.540] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+12월 27, 2022 21:42:45.57 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+12월 27, 2022 21:48:30.998 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)

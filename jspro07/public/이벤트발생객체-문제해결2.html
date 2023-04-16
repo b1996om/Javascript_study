@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>이벤트 발생 객체 - 문제해결2</title>
+	<script>
+		//this 키워드 사용(애로우함수 쓸수 없음)
+		const listener = function(event) {
+			const length = this.value.length
+			const h1 = document.querySelector('h1')
+			h1.textContent = `글자 수:${length}`
+		}
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const textarea = document.querySelector('textarea')
+			textarea.addEventListener('keyup', listener)      
+		})
+	</script>
+</head>
+<body>
+	<h1>글자 수 : 0</h1>
+	<textarea></textarea>
+</body>
+</html>

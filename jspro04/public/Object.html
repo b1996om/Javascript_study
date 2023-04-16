@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		//변수선언, this키워드를 사용해 자신이 가진 속성에 접근가능
+		const pet = {
+				name:'구름',
+				eat:function(food) {
+					alert(this.name+'은/는'+food+'을/를 먹습니다.')
+				}
+		}
+		
+		//메소드 호출
+		pet.eat('밥')
+	</script>
+</head>
+<body>
+
+</body>
+</html>

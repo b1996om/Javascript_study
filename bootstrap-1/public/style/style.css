@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+		html {
+		  border-top: 5px solid #fff;
+		  color: #2a2a2a;
+		}
+		html, body {
+		  margin: 0;
+		  padding: 0;
+		  font-family: 'Open Sans';
+		  box-sizing:border-box;
+		}
+		
+		h1 {
+		  color: black;
+		  text-align: center;
+		  font-weight: 300px;
+		  height:50px;
+		  line-height:50px;
+		}
+		
+		#slider {
+		  position: relative;
+		  overflow: hidden;
+		  margin: 20px auto 0 auto;
+		  border-radius: 4px;
+		}
+		
+		#slider ul {
+		  position: relative;
+		  margin: 0;
+		  padding: 0;
+		  height: 200px;
+		  list-style: none;
+		}
+		
+		#slider ul li {
+		  position: relative;
+		  display: block;
+		  float: left;
+		  margin: 0;
+		  padding: 0;
+		  width: 1000px;
+		  height: 600px;
+		  background: #ccc;
+		  text-align: center;
+		  line-height: 300px;
+		}
+		
+		a.control_prev, a.control_next {
+		  position: absolute;
+		  top: 40%;
+		  z-index: 999;
+		  display: block;
+		  padding: 4% 3%;
+		  width: auto;
+		  height: auto;
+		  background: #2a2a2a;
+		  color: #fff;
+		  text-decoration: none;
+		  font-weight: 600;
+		  font-size: 18px;
+		  opacity: 0.8;
+		  cursor: pointer;
+		}
+		
+		a.control_prev:hover, a.control_next:hover {
+		  opacity: 1;
+		  -webkit-transition: all 0.2s ease;
+		}
+		
+		a.control_prev {
+		  border-radius: 0 2px 2px 0;
+		}
+		
+		a.control_next {
+		  right: 0;
+		  border-radius: 2px 0 0 2px;
+		}
+		.travel {
+			border:5px solid blue;
+			
+		}
+		.content {
+		 	margin:0 auto;
+			width:100%;
+		}
+		.content1 {
+			padding-bottom:20px;
+		}
+		.footer-1 {
+			height:300px;
+			background-color:#fff5e7;
+			font-size:15px;
+			margin-top:20px;
+			padding-top:40px;
+			line-height:30px;
+		}
+		.footer-2 {
+			height:50px;
+			line-height:50px;
+			text-align:center;
+		}
+		img {
+			width:300px;
+			height:200px;
+		}
+		nav {
+			background-color:#fff5e7;
+		}
+		.dogname {
+			font-size:20px;
+			color:green;
+			margin-top:20px;
+		}
+		.dogcon {
+			margin-top:15px;
+			line-height:30px;
+		}
+		.title {
+			font-size:30px;
+			color:green;
+			font-weight:bold;
+		}
+		.navbar-brand {
+			font-size:30px;
+			font-weight:bold;
+			color:green;
+		}
+		.nav-link {
+			font-size:20px;
+			padding-right:50px;
+		}
+		span {
+			font-size:20px;
+			font-weight:bold;
+			color:green;
+		}

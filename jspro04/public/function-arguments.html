@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		//가변 매개변수 함수를 구현할 때는 배열 내부에서 사용할수 있는 특수한 변수인 arguments사용(지원해줌)
+		function sample() {
+			console.log(arguments)
+			for(let i=0; i<arguments.length; i++) {
+				console.log(`${i}번째 요소: ${arguments[i]}`)
+			}
+		}
+		
+		sample(1,2)
+		sample(1,2,3)
+		sample(1,2,3,4)
+	</script>
+</head>
+<body>
+
+</body>
+</html>

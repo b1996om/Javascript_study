@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		//삼각형
+		let output = ''
+		
+		for (let i=1; i<10; i++) {
+			for (let j=0; j<i; j++) {
+				output += '*'
+			}
+			output += '\n'
+		}
+		
+		console.log(output)
+		
+		//삼각형 옆으로 뒤집기
+		let out = ''
+		
+		for(let i=1; i<10; i++) {
+			for(let j=10; j>i; j--) {
+				out += ' ';
+			}
+			for(let k=0; k<i; k++) {
+				out += "*"
+			}
+			out += '\n'
+		}
+		console.log(out)
+	</script>
+</head>
+<body>
+
+</body>
+</html>

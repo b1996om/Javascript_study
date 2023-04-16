@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>이벤트 발생 객체</title>
+	<script>
+		//이벤트 리스너 내부에서 어떤 변수에 접근할 수 없는 경우
+		const listener = (event) => {
+			const length = textarea.value.length //현재블록에서는 textarea변수를 사용할 수 없음
+			h1.textContent = `글자 수:${length}`
+		}
+		document.addEventListener('DOMContentLoaded', () => {
+			const textarea = document.querySelector('textarea')
+			const h1 = document.querySelector('h1')
+			textarea.addEventListener('keyup',listener)
+		})
+	</script>
+</head>
+<body>
+	<h1></h1>
+	<textarea></textarea>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		function isLeapYear(year=new Date().getFullYear()) {
+			console.log(`매개변수 year:${year}`) //매개변수 year:2022
+			return(year%4===0)&&(year%100===0)||(year%400===0)
+		}
+		
+		console.log(`올해는 윤년일까? === ${isLeapYear()}`) //올해는 윤년일까?===false
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		//자바스크립트의 배열 크기가 한정되어 있기 때문에 배열을 너무 크게 선언하면 오류를 발생시킴
+		try {
+			const array = new Array(999999999999)
+		} catch (exception) {  //(exception)이 예외 객체이다
+			console.log(exception)
+			console.log()
+			console.log(`예외 이름:${exception.name}`)
+			console.log(`예외 메시지:${exception.message}`)
+		}
+	</script>
+</head>
+<body>
+</body>
+</html>

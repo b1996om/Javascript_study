@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			
+			const select = document.querySelector('select')
+			const p = document.querySelector('div')
+			
+			select.addEventListener('change', (event) => {
+				const options = event.currentTarget.options
+				const index = event.currentTarget.selectedIndex
+				
+				p.textContent = `${options[index].textContent}, `
+			})
+		})
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			
+			const select = document.querySelector('#select')
+			const pp = document.querySelector('#p')
+			
+			select.addEventListener('change', (event) => {
+				const options = event.currentTarget.options
+				const index = event.currentTarget.selectedIndex
+				
+				pp.textContent = `${options[index].textContent}`
+			})
+		})
+	</script>
+</head>
+<body>
+	<hr>
+	<label style="margin-right:40px; ">색상</label>
+	<select style="width:200px; margin-bottom:10px;">
+		<option>옵션 선택</option>
+		<option>브라운</option>
+		<option>블랙</option>
+	</select>
+	<br>
+	
+	<label style="margin-right:24px;">사이즈</label>
+	<select id="select" style="width:200px;">
+		<option>사이즈선택</option>
+		<option>220</option>
+		<option>225</option>
+		<option>230</option>
+		<option>235</option>
+	</select>
+	<hr>
+	<section style="display:flex">
+		<div></div>
+	 	<div id="p"></div>
+	</section>
+	
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>기본 이벤트 막기</title>
+	<script>
+		//기본 이벤트 막기 : 이미지 마우스 오른쪽 버튼 클릭 막기
+		document.addEventListener('DOMContentLoaded', () => {
+			 const imgs = document.querySelectorAll('img')
+			 
+			 imgs.forEach((img)=> {
+				img.addEventListener('contextmenu', (event) => {
+					event.preventDefault()
+				})
+			 })
+			 })
+	</script>
+</head>
+<body>
+	<img src="http://placekitten.com/300/300" alt="고양이">
+</body>
+</html>

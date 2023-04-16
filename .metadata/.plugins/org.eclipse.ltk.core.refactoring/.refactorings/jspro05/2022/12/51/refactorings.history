@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jspro05/public/마무기_2-3.html&apos; to &apos;마무리_2-3.html&apos;" description="Rename resource &apos;마무기_2-3.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="public/마무기_2-3.html" name="마무리_2-3.html" stamp="1671161519209" updateReferences="true"/>
+</session>

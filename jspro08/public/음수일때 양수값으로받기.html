@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Class</title>
+	<script>
+			class Square {
+				constructor(length) {
+					this.length = length
+				}
+				
+				getPerimeter() {return 4 * this.length}
+				getArea() {return this.length * this.length}
+			}
+			
+			while(true) {
+				const r = prompt("길이를 입력해주세요.")
+				if(r < 0) {
+					alert("음수입니다. 양수로 입력해주세요.")
+					continue
+					
+				} else {
+					const square = new Square(r)
+					console.log(`정사각형의 둘레:${square.getPerimeter()}`)
+					console.log(`정사각형의 넓이:${square.getArea()}`)
+					break
+				}
+			}
+	</script>
+</head>
+<body>
+</body>
+</html>

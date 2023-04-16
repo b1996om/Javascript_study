@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		//Number객체 - isNaN(), 
+		//          - isFinite() : 유한대니?라는 질문
+		
+		const n = 10 / 0
+		console.log(n)  //Infinity - 양수로 가는 무한대
+		
+		const o = -10 / 0
+		console.log(o) //-Infinity - 음수로 가는 무한대
+		
+		console.log(Number.isFinite(n))  //false
+		console.log(Number.isFinite(o))  //false
+		console.log(Number.isFinite(1))  //true
+		console.log(Number.isFinite(10))  //true
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Class</title>
+	<script>
+		//LifeCycle클래스를 상속받는 Child라는 이름의 클래스를 선언하고 내부에서 부모에 있던 a()라는 이름의 메소드 만들기
+		//클래스 선언
+		class LifeCycle {
+			call() {
+				this.a()
+				this.b()
+				this.c()
+			}
+			
+			a() {console.log('a()메소드를 호출합니다')}
+			b() {console.log('b()메소드를 호출합니다')}
+			c() {console.log('c()메소드를 호출합니다')}
+		}
+		
+		//LifeCycle 상속받는 Child클래스
+		class Child extends LifeCycle {
+			a() {
+				super.a()
+				console.log('자식의 a()메소드입니다.')
+			}
+		}
+		//인스턴스 생성
+		new Child().call()
+	</script>	
+</head>
+<body>
+</body>
+</html>

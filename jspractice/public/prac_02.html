@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Insert title here</title>
+	<script>
+		//최솟값을 구하는 함수
+		
+		/* --로직설명--
+		먼저 min이라는 함수를 만들건데 매개변수로 배열(array)를 받을거야.
+		output을 배열 0번째인덱스로 초기화하고.
+		for반복문 돌릴건데, 조건이 array안에 item(요소하나하나)을 가져올거라는것,
+		만약(if) output보다 더 작은 값이 있는지 계속 확인하고 그 item값을 output에
+		계속 넣어, 그렇게하다가 더 이상 작은 값이 안나오면 output을 리턴해.
+		*/
+		function min(array) {
+			let output = array[0]
+			for(const item of array) {
+				if(output > item) {
+					output = item
+				}
+			}
+			return output
+		}
+		//위에서 선언한 함수를 이제 사용해보겠다!
+		const testArray = [52,273,32,103,275,24,57]
+		
+		console.log(`${testArray}중에서`)
+		console.log(`최솟값 = ${min(testArray)}`) 
+		/*
+		위에서 만든 min이라는 함수에 testArray를 매개변수로 받아서 값을 출력하겠다.
+		즉, min 함수 안에(array)가 다 testArray로 변경되서 값을 출력하는것이다!!
+		*/
+	</script>
+</head>
+<body>
+
+</body>
+</html>

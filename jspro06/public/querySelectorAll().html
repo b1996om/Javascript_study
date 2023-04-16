@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>querySelectorAll()</title>
+	<script>
+		//querySelectorAll()메소드 : 문서객체 여러개를 배열로 읽어들이는 함수
+		document.addEventListener('DOMContentLoaded',() => {
+			const header = document.querySelectorAll('h1')
+			
+			header.forEach((header) => {
+				//forEach() 사용해서 반복 돌린다.
+				header.textContent = 'HEADERS'
+				header.style.color = 'white'
+				header.style.backgroundColor = 'black'
+				header.style.padding = '10px'
+			})
+		})
+	</script>
+</head>
+<body>
+	<h1></h1>
+	<h1></h1>
+	<h1></h1>
+	<h1></h1>
+</body>
+</html>

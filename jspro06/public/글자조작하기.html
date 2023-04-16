@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>textContent,innerHTML</title>
+	<script>
+		document.addEventListener('DOMContentLoaded',() => {
+			const a = document.querySelector('#a') //특정아이디로 요소선택
+			const b = document.querySelector('#b') //특정아이디로 요소선택
+			
+			a.textContent = '<h1>textContent 속성</h1>'
+			b.innerHTML = '<h1>innerHTML 속성</h1>'
+			})
+		
+	</script>
+</head>
+<body>
+	<div id="a"></div>
+	<div id="b"></div>
+</body>
+</html>
